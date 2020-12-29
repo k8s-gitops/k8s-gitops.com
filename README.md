@@ -73,7 +73,7 @@ docker build -f dev.Dockerfile -t docsy-example-dev:latest .
 1. Run the built image
 
 ```bash
-docker run --publish 1313:1313 --detach --mount src="$(pwd)",target=/home/docsy/app,type=bind docsy-example-dev:latest
+docker run --publish 1313:1313 --mount src="$(pwd)",target=/home/docsy/app,type=bind docsy-example-dev:latest
 ```
 
 Open your web browser and type `http://localhost:1313` in your navigation bar,

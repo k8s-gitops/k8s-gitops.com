@@ -1,3 +1,4 @@
+# this does not work version needs to be pinned in 0.76.5
 FROM klakegg/hugo:ext-nodejs
 WORKDIR /home/docsy/app
 RUN mkdir -p /home/docsy/deps
